@@ -39,7 +39,8 @@ simulation <- function(fundadores,
       f.rate = p_dam,
       m.rate = p_sire,
       fsel = crit_dam,
-      msel = crit_sire)
+      msel = crit_sire,
+  seed=123)
 
   dados<-data
   dados$VG<-dados$PA+dados$MS
