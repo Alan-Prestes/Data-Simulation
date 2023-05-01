@@ -1,3 +1,4 @@
+#Criando a função para a simulação de dados:
 simulation <- function(fundadores, 
                        vara, 
                        vare, 
@@ -48,6 +49,7 @@ simulation <- function(fundadores,
 
 }
 
+#Calculando a endogamia do arquivo de pedigree
 endogamia<-function(dados){
   DADOS<-dados
   ped<-DADOS[,c("Animal", "Touro","Vaca")]
@@ -66,7 +68,7 @@ endogamia<-function(dados){
   
 }
 
-
+#Função para estimativa da tendência genética
 tend_gen <- function(dataset, plotly){
   
   if(plotly==T){
@@ -119,7 +121,7 @@ tend_gen <- function(dataset, plotly){
   
 }
 
-
+#Função para estimativa da equação da tendência genética:
 equacao_gen <- function(dataset){
   
   data<-dataset
@@ -139,7 +141,7 @@ equacao_gen <- function(dataset){
   
 }
 
-
+#Função para estimativa da tendência fenotípica:
 tend_fen <- function(dataset, plotly){
   
   if(plotly==T){
@@ -192,7 +194,7 @@ tend_fen <- function(dataset, plotly){
   
 }
 
-
+#Função para estimativa da equação da tendência fenotípica:
 equacao_fen <- function(dataset){
   
   data<-dataset
