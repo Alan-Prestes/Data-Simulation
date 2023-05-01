@@ -11,7 +11,7 @@ shinyUI(
                 # Upload de arquivo. -----------------------------------
                 numericInput(
                     inputId = "FUND",
-                    label = "Selecione o N?mero de Animais Fundadores",
+                    label = "Selecione o Número de Animais Fundadores",
                     value=100,
                     min=NA,
                     max=NA),
