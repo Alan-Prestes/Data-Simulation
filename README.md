@@ -19,13 +19,13 @@ runGitHub(repo="Data-Simulation", username = "Alan-Prestes", ref="main")
 
 
 ### Pacotes utilizados
-* pedSimulate
-* pedigree
-* shiny
-* shinythemes
-* writexl
-* dplyr
-* ggplot2
-* plotly
+* pedSimulate: [CRAN](https://cran.r-project.org/package=pedSimulate)
+* pedigree: [CRAN](https://cran.r-project.org/package=pedigree)
+* shiny: [CRAN](https://cran.r-project.org/package=shiny)
+* shinythemes: [CRAN](https://cran.r-project.org/package=shinythemes)
+* writexl: [CRAN](https://cran.r-project.org/package=writexl)
+* dplyr: [CRAN](https://cran.r-project.org/package=dplyr)
+* ggplot2: [CRAN](https://cran.r-project.org/package=ggplot2)
+* plotly: [CRAN](https://cran.r-project.org/package=plotly)
 
 
