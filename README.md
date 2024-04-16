@@ -13,6 +13,8 @@ Dashboard criado para a simulação de dados de populações animais para o ensi
 ### Como executar:
 Para executar abra o _`R Studio`_ e execute o seguinte comando:
 ```ruby
+#Caso não tenha os pacotes abaixo instalados, faça a instalação
+install.packages(c("pedSimulate", "pedigree", "shiny", "shinythemes","writexl", "dplyr", "ggplot2", "plotly"))
 library(shiny)
 runGitHub(repo="Data-Simulation", username = "Alan-Prestes", ref="main")
 ```
